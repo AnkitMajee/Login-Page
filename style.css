@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.Container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+    column-gap: 30px;
+
+}
+
+h1{
+ border: 2px solid;
+ width: 200px;
+ margin: 35px auto;
+ position: relative;
+ box-shadow: 0 0 20px 3px #9AFBFA;
+ border-radius: 35px;
+}
+
+.form-login{
+  width: 400px;
+  height: 600px;
+  background: white;
+  margin: 6% auto;
+  position: relative;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid;
+  box-shadow: 0 0 20px 3px #9AFBFA;
+  border-radius: 35px;
+}
+.login{
+  border: 0px solid;
+  top:180px;
+  position: absolute;
+  width: 280px;
+}
+.input{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid;
+  outline: none;
+  background: transparent;
+}
+.submit{
+  width: 85%;
+  padding: 10px 35px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border: 2px solid;
+  box-shadow: 0 0 20px 3px #9AFBFA;
+  border-radius: 35px;
+}
+.checkbox{
+  margin: 30px 10px;
+}
+
+span{
+  color: #777;
+  font-size: 13px;
+}
+
+#login-id{
+  left: 50px;
+}
+#login-error-msg-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#login-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  opacity: 0;
+}
+
+#error-msg-second-line {
+  display: block;
+}
